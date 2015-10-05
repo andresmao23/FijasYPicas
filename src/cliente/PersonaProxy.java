@@ -47,7 +47,11 @@ public class PersonaProxy implements Runnable{
         }
     }
     
-    public void saludar(){
+    public void ingresarNumero(){
+    	salida.println("ingresarNumero");
+    }
+    
+    /*public void saludar(){
         salida.println("saludar");
     }
     
@@ -57,5 +61,5 @@ public class PersonaProxy implements Runnable{
     
     public void despedirse(){
         salida.println("despedirse");
-    }
+    }*/
 }
